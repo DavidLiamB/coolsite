@@ -2,3 +2,68 @@ body {
   background-color: #061130;
   color: whitesmoke;
 }
+
+header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #F4F6F8;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 5px;
+  background-color: #061130;
+  color: whitesmoke;
+  border: none;
+}
+
+a {
+  padding: 50px;
+}
+
+.hero-text {
+  max-width: 20%;
+}
+
+.S {
+  color: #FAFD61;
+}
+
+.chat-button {
+  border-radius: 5px;
+  background-color: #1c4bc4;
+}
+
+.links {
+  padding: 20px;
+  background-color: white;
+  width: 100%;
+}
+
+.message {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: black;
+}
