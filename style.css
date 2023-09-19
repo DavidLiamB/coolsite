@@ -1,5 +1,6 @@
 body {
-  background-color: #061130;
+  margin: 0px;
+  background-color: #F4F6F8;
   color: whitesmoke;
 }
 
@@ -8,24 +9,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #061130;
 }
 
 main {
   padding: 20px;
   display: flex;
   justify-content: space-around;
-}
-
-footer {
-  margin: 0;
-  padding: 10px;
-  display: flex;
-  align-content: center;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-  background-color: #F4F6F8;
+  background-color: #061130;
 }
 
 button {
@@ -37,7 +28,7 @@ button {
 }
 
 a {
-  padding: 50px;
+  margin: 20px;
 }
 
 .hero-text {
@@ -54,16 +45,15 @@ a {
 }
 
 .links {
+  display: flex;
   padding: 20px;
   background-color: white;
-  width: 100%;
+  justify-content: space-evenly;
 }
 
 .message {
   display: flex;
-  align-content: center;
   align-items: center;
   flex-direction: column;
-  flex-wrap: wrap;
   color: black;
 }
